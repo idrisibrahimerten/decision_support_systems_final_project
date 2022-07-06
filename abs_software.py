@@ -6,8 +6,8 @@ import random
 
 db = pypyodbc.connect(
     'Driver={SQL Server};'
-    'Server=DESKTOP-QOHO2CI\SQLEXPRESS;'
-    'Database=absuzmansistem;'
+    'Server=pc_sql_server_name'
+    'Database=database_name'
     'Trusted_Connection=True;'
 )
 
